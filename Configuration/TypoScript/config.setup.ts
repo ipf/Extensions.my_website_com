@@ -1,3 +1,6 @@
+### These are just some global defaults that make sense to me
+### Some of the settings can be ignored if you set disableAllHeaderCode to 1
+
 config {
 	 # adminPanel
 	admPanel = 0

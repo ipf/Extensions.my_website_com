@@ -1,0 +1,18 @@
+<f:if condition="{user}">
+	<f:then>
+		<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+			<i class="icon-user"></i> {user.name}
+			<span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu">
+			<li><a href="./profile">Profile</a></li>
+			<li class="divider"></li>
+			<li><a href="./login">Sign Out</a></li>
+		</ul>
+	</f:then>
+	<f:else>
+		<a class="btn" href="./login">
+			<i class="icon-lock"></i> Login
+		</a>
+	</f:else>
+</f:if>

@@ -1,5 +1,8 @@
 <?php
 
+// Adjust this file to your needs (rootpage_id should point to the PID of your homepage, books pids contain
+// the PIDs of the page(s) that contain the BookDetails plugin!
+
 $realurlConfigurationLocal = array(
 	'rootpage_id' => 1,
 	'fixedPostVars' => array(
