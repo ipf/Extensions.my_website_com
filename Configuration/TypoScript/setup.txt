@@ -1,0 +1,4 @@
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:my_website_com/Configuration/TypoScript/config.setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:my_website_com/Configuration/TypoScript/page.setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:my_website_com/Configuration/TypoScript/extensions.setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:my_website_com/Configuration/TypoScript/libObjects.setup.ts">

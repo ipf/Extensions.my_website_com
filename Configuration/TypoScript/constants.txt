@@ -1,0 +1,24 @@
+ ### constant editor (copy & paste into setup of root template) ###
+
+ #cat=global; type=string; label=Base URI of this website
+baseUrl = http://local.my-website.com
+ #cat=global/pids/a; type=int+; label=PID of the Homepage
+rootPid = 1
+
+ ### styles.content ###
+
+styles.content {
+	imgtext.maxW = 600
+	imgtext.maxWInText = 600
+	imgtext.linkWrap.width = 600
+	imgtext.captionSplit = 1
+	imgtext.colSpace = 20
+	imgtext.textMargin = 20
+	links.extTarget =
+}
+
+
+ ### Setting link targets to nothing (no frames mode) ###
+
+PAGE_TARGET =
+content.pageFrameObj =
