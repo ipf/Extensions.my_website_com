@@ -16,5 +16,5 @@ Note:
 -----
 
 NOTE: In this example I have disabled the creation of TYPO3s header code by adding *config.disableAllHeaderCode = 1* to the TypoScript setup.
-With this Extensions can't register their custom styles / scripts anymore so this makes only sense, if you know what you're doing and if you want to take full control of the included assets.
-A different solution would be to add required Stylesheets and JavaScripts via *includeCSS* and *includeJS* and put the head of your Fluid template in <f:comment /> or <f:section /> tags.
+With this in place, Extensions can't register their custom styles / scripts anymore so this makes only sense, if you know what you're doing and if you want to take full control of the included assets.
+A different solution would be to add required Stylesheets and JavaScripts via *includeCSS* and *includeJS* and put the head of your Fluid template in &lt;f:comment /&gt; or &lt;f:section /&gt; tags.
